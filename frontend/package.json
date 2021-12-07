@@ -1,0 +1,44 @@
+{
+	"name": "frontend",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"sass": "node-sass ./styles/globals.scss ./styles/globals.css -w"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.15.4",
+		"@fortawesome/fontawesome-svg-core": "^1.2.36",
+		"@fortawesome/free-brands-svg-icons": "^5.15.4",
+		"@fortawesome/free-regular-svg-icons": "^5.15.4",
+		"@fortawesome/free-solid-svg-icons": "^5.15.4",
+		"@fortawesome/react-fontawesome": "^0.1.15",
+		"axios": "^0.21.4",
+		"crypto-js": "^4.1.1",
+		"editorjs-blocks-react-renderer": "^1.1.1",
+		"editorjs-react-renderer": "^2.7.3",
+		"immer": "^9.0.7",
+		"next": "^12.0.7",
+		"pretty-ms": "^7.0.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.5",
+		"react-router": "^5.2.0",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.3",
+		"redux": "^4.1.2",
+		"redux-devtools-extension": "^2.13.9",
+		"redux-logger": "^3.0.6",
+		"redux-persist": "^6.0.0",
+		"redux-thunk": "^2.4.1",
+		"sweetalert2": "^11.1.7",
+		"web-vitals": "^1.1.2"
+	},
+	"devDependencies": {
+		"eslint": "8.4.0",
+		"eslint-config-next": "12.0.7",
+		"node-sass": "^6.0.1"
+	}
+}
